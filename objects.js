@@ -19,6 +19,7 @@ function auto(marca, modelo, valor) {
     this.marca = marca;
     this.modelo = modelo;
     this.valor = valor;
+    return auto;
 }
 
 var marca = [
@@ -58,7 +59,7 @@ var valor = [
 ]
 
 listaAutos =[];
-for (let i = 0; i < 30; i++) {
+for (let i = 0; i < 1; i++) {
     var newCarro =  new auto(marca,modelo, valor);
     listaAutos.push(auto);  
 }
